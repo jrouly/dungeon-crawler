@@ -1,0 +1,31 @@
+[A]
+description: You awake in a cave. Behind you, the entrance has been blocked off by a rockslide. Sunlight is streaming in through cracks between the rocks. The only way is North, deeper into the cave...
+items:     candle & gray, heavy rock & long stick &     finalitem
+start: me
+north: B
+
+[B]
+description: The cave veers off to the east.
+items: angry cat
+east: C
+
+[C]
+description: The cave continues forwards, but also brances off to the south.
+items: octopus dildo
+east: F
+south: D
+
+[D]
+description: Tile 4
+east: E
+
+[E]
+description: Tile 5
+north: F
+
+[F]
+description: Tile 6
+
+[TileName]
+description: Textual description.
+items: adj itemname & otheritem
